@@ -30,36 +30,6 @@ Fonte: European Data Portal
 
 Data de acesso: Novembro de 2026
 
-O conjunto de dados contém 20.845 registos e as seguintes variáveis:
-
-Variável
-
-Descrição
-
-DATA_REFERENCIA
-
-Ano de referência
-
-MES
-
-Mês de referência
-
-PAIS_PROCEDENCIA
-
-País de procedência
-
-PROVINCIA_PROCEDENCIA
-
-Província de procedência
-
-SEXE
-
-Sexo
-
-POBLACIO
-
-Campo de população presente na fonte original
-
 🛠️ Tecnologias utilizadas
 
 Python 3.13.9
@@ -128,37 +98,6 @@ Consequentemente, os resultados representam a quantidade de registos por categor
 
 A variável POBLACIO está presente na fonte original, mas não foi utilizada nesta análise.
 
-📁 Estrutura do repositório
-
-Analises-de-Imigracao/
-│
-├── data/
-│   └── spain.csv
-├── images/
-│   ├── Evolution by country of origin.png
-│   ├── Evolution by provence of origin.png
-│   ├── Immigration Evolution.png
-│   ├── Origin of the immigrants
-│   ├── Top 10 Countries
-│   └── Top 10 Provinces.png
-├── Analises de Imigração.ipynb
-└── README.md
-
-▶️ Como executar o projeto
-
-Clonar este repositório:
-
-git clone URL_DO_REPOSITORIO
-
-Instalar as dependências:
-
-pip install pandas matplotlib seaborn
-
-Abrir o notebook no Jupyter Notebook ou VS Code.
-
-Garantir que o ficheiro spain.csv está no mesmo diretório do notebook.
-
-Executar as células sequencialmente.
 
 👨‍💻 Autor
 
